@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 13;
+}
+h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.main{
+    padding-left: 390px;
+    padding-right: 390px;
+    /* background-color: antiquewhite; */
+}
+#header{
+    width: 100%;
+    background-image: url("../images/banner1.jpg");
+    height: 897px;
+}
+#header .main .header-menu .logo{
+    width: 193px;
+    height:115px;
+    background-color: aqua;
+}
+#header .main .header-menu{
+    display: flex;
+}
+#header .main .header-menu .menu{
+    width: 942px;
+    height: 115px;
+    background-color: rgb(43, 53, 53);
+}
+#header .main .text {
+    height: 167px;
+    margin-top: 150px;
+    background-color: azure;
+}
+#header .main .button{
+    height: 44px;
+    margin-top: 80px;
+    background-color: azure;
+}
+
+
+
+.test .main .logo1{
+    width: 193px;
+    height: 90px;
+    background-color: aqua;
+}
+.test .main{
+    display: flex;
+}
+.test .main .menu1{
+    width: 942px;
+    height: 90px;
+    background-color: rgb(43, 53, 53);
+}
