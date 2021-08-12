@@ -1,62 +1,114 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    width: 1920px;
 }
-p{
+
+p {
     font-size: 13;
 }
-h2{
+
+h2 {
     font-size: 24px;
     font-weight: 500;
 }
 
-.main{
+.main {
     padding-left: 390px;
     padding-right: 390px;
     /* background-color: antiquewhite; */
 }
-#header{
-    width: 100%;
+
+#header {
+    /* width: 100%; */
     background-image: url("../images/banner1.jpg");
     height: 897px;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
 }
-#header .main .header-menu .logo{
+
+#header .main .header-menu .logo {
     width: 193px;
-    height:115px;
-    background-color: aqua;
+    height: 115px;
+    /* background-color: aqua; */
 }
-#header .main .header-menu{
+
+#header .main .header-menu {
     display: flex;
 }
-#header .main .header-menu .menu{
+
+#header .main .header-menu .menu {
     width: 942px;
     height: 115px;
-    background-color: rgb(43, 53, 53);
+    padding-left: 124px;
+    /* background-color: rgb(43, 53, 53); */
 }
+
+#header .main .header-menu .menu ul {
+    list-style-type: none;
+    /* vertical-align: middle; */
+    /* justify-content: space-between; */
+    height: 115px;
+    display: flex;
+    color: white;
+    /* Canh giữa bằng flex */
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 13px;
+}
+
+#header .main .header-menu .menu ul li {
+    padding-left: 27px;
+}
+
+#header .main .header-menu .menu ul li button {
+    background-color: #ec3642;
+    border: none;
+    color: white;
+    border-radius: 23px;
+    /* width: 226px; */
+    width: 158px;
+    height: 40px;
+}
+
+#header .main .text {
+    /* font-size: 42px; */
+    color: white;
+}
+
+
+/* #header .main .header-menu .menu ul {
+    list-style-type: none;
+    display: flex;
+} */
+
 #header .main .text {
     height: 167px;
     margin-top: 150px;
-    background-color: azure;
+    /* background-color: azure; */
 }
-#header .main .button{
+
+#header .main .button {
     height: 44px;
     margin-top: 80px;
     background-color: azure;
 }
 
-
-
-.test .main .logo1{
+.test .main .logo1 {
     width: 193px;
     height: 90px;
     background-color: aqua;
 }
-.test .main{
+
+.trainer .main {
     display: flex;
 }
-.test .main .menu1{
+
+#trainer .main .trainer-images {
     width: 942px;
     height: 90px;
+    /* display: flex; */
     background-color: rgb(43, 53, 53);
 }
